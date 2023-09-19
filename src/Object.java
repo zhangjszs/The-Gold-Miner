@@ -1,3 +1,8 @@
+/**
+ * @author kerwinz
+ * @changtime 2023/9/19
+ * @projectname The Gold Miner
+ */
 
 import java.awt.*;
 
@@ -17,15 +22,16 @@ public class Object {
     //积分
     int count;
 
-    void paintSelf(Graphics g){
-        g.drawImage(img,x,y,null);
+    void paintSelf(Graphics g) {
+        g.drawImage(img, x, y, null);
     }
 
-    public int getWidth(){
+    public int getWidth() {
         return width;
     }
+
     //获取矩形
-    public Rectangle getRec(){
-        return new Rectangle(x,y,width,height);
+    public Rectangle getRec() {
+        return new Rectangle(x, y, width, height);
     }
 }
